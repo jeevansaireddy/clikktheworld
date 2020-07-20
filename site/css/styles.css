@@ -1,0 +1,139 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen',sans-serif;
+}
+
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img {
+	background: url("https://www.freelogodesign.org/file/app/client/thumb/35724fd6-fe57-4e63-b25f-4b546b9b1b17_200x200.png?1594376235651")no-repeat;
+	width: 180px;
+	height: 193px;
+	margin: 10px 15px 10px 0px;
+}
+.navbar-brand {
+	padding-top: 50px;
+}
+
+.navbar-brand h1 {
+	font-family: 'Lora' ,serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+
+}
+
+.navbar-brand a:hover, .navbar_brand a:focus {
+	text-decoration: none;
+}
+ #nav-list {
+	margin-top: 10px;
+}
+#nav-list a{
+	color: #951C49;
+	text-align: center;
+}
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+#nav-list a span {
+ font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle,.navbar-header .icon-bar{
+	border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+}
+ #collapsable-nav a {
+ 	font-size: 1.2em;
+ }
+ #collapsable-nav a span {
+ 	font-size: 1em;
+ 	margin-right: 5px;
+ }
+
+.container .jumbotron {
+	padding: 0px 0px 0px 0px ;
+	border: 5px bold #fff;
+}
+@media (min-width: 1200px) {
+	.jumbotron{
+		background:url("../images/resize-1595268790127243708820190915093200.jpg")no-repeat;
+		height: 675px;
+		box-shadow: 0 0 50px #3F0C1F;
+		border: 2px solid #3F0C1F;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px){
+	.jumbotron {
+		 background:url("../images/resize-1595269108113140731520190915093200.jpg")no-repeat;
+		 height: 558px;
+		 box-shadow: 0 0 50px #3F0C1F;
+		 border: 2px solid #3F0C1F;
+	}
+}
+.container .jumbotron {
+	margin-top: 30px;
+	padding:0;
+	box-shadow: 0 0 50px #3F0C1F;
+		 border: 2px solid #3F0C1F;
+}
+#image :hover{
+	box-shadow: 0px 1px 5px 1px #cccccc;
+}
+#map ,#status , #explore, #karthikeya{
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px bold #3F0C1F;
+	overflow: hidden;
+}
+#map:hover ,#status:hover , #explore:hover {
+	box-shadow: 0px 1px 5px 1px #cccccc;
+}
+#status {
+	background: url("https://growmusic.ie/wp-content/uploads/2016/12/brain-music-green-png-250px.png") no-repeat;
+	background-position: center;
+}
+#explore {
+	background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTH8d3cyG5drgprSSw2khoyZNV0qhpqPNKr_g&usqp=CAU") no-repeat;
+	background-position: center;
+}
+#map span, #status span,#explore span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+.panel-footer {
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top: 0;
+}
+#copy1 {
+	padding-top: 40px;
+}
+
+
+
